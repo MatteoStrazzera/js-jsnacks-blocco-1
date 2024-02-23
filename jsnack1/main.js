@@ -20,10 +20,13 @@ const secondPrompt = prompt('Insert second number');
 
 if (firstPrompt > secondPrompt) {
     
+    alert('Highest number is ' + firstPrompt)
     console.log(firstPrompt);
+
 
 } else if (firstPrompt < secondPrompt) {
     
+    alert('Highest number is ' + secondPrompt)
     console.log(secondPrompt);
 
 }
