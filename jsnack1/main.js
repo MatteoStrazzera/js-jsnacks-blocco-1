@@ -6,13 +6,13 @@ Il software stampa il maggiore.
 
 // user prompt 1
 
-const firstPrompt = prompt('Insert first number');
+const firstPrompt = Number(prompt('Insert first number'));
 
 // console.log(firstPrompt);
 
 // user prompt 2
 
-const secondPrompt = prompt('Insert second number');
+const secondPrompt = Number(prompt('Insert second number'));
 
 // console.log(secondPrompt);
 
@@ -22,7 +22,7 @@ if (firstPrompt > secondPrompt) {
     
     alert('Highest number is ' + firstPrompt)
     console.log(firstPrompt);
-
+    
 
 } else if (firstPrompt < secondPrompt) {
     
